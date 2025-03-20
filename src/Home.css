@@ -15,3 +15,16 @@
     text-decoration: none;
     color: white;
 }
+.img_div img {
+  position: absolute;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text_img {
+    position: relative;
+    z-index: 2;
+    color: white;
+    margin-left: 10px;
+}

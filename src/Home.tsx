@@ -10,6 +10,8 @@ const Home = () => {
         </nav>
       </header>
       <div className='img_div'>
+        <img src='./public/img.jpg' />
+          <h1 className='text_img'>Отпуск в доме вашей мечты</h1>
         
       </div>
         </div>
