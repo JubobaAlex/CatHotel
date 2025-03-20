@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.window {
+    background-color: chartreuse;
+    min-height: 50px
+}
+.window a {
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
