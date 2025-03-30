@@ -1,30 +1,74 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial;
-}
-.window {
+    font-family: Arial
+  }
+  
+  .window {
     background-color: chartreuse;
-    min-height: 50px
-}
-.window a {
+    min-height: 50px;
+  }
+  
+  .window a {
     font-size: 22px;
     margin-left: 15px;
     margin-top: 10px;
     display: inline-block;
     text-decoration: none;
     color: white;
-}
-.img_div img {
-  position: absolute;
-    height: 250px;
+  }
+  
+  .img_div {
+    position: relative; /*  Важно для позиционирования потомков */
+    height: 374px; /*  Фиксированная высота, чтобы контент не прыгал */
+    overflow: hidden; /*  Обрезаем изображение, если оно больше контейнера */
+  }
+  
+  .img_div img {
     width: 100%;
-    object-fit: cover;
-}
-
-.text_img {
-    position: relative;
+    height: 100%;
+    object-fit: cover; /*  Важно для правильного масштабирования */
+    display: block; /*  Убираем лишний отступ у картинок */
+  }
+  
+  .text_img,
+  .buy {
+    position: absolute; /*  Абсолютное позиционирование внутри .img_div */
     z-index: 2;
     color: white;
     margin-left: 10px;
+  }
+  
+  .text_img {
+    top: 20px; /*  Позиционируем текст сверху */
+  }
+  
+  .buy {
+    bottom: 20px; /*  Позиционируем кнопку снизу */
+    border: 0.3px solid chartreuse;
+    background-color: chartreuse;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .buy:hover {
+    background-color: rgb(86, 161, 10);
+  }
+  
+  .slider_container {
+    margin-top: 20px; 
+    padding: 20px; 
+    background-color: chartreuse;
+    box-shadow: 0px 30px 0px 0px black;
+    border-radius: 15px;
+  }
+.slider_container img {
+  width:800px;
+  height: 500px;
+  object-fit:cover;
+  margin-right: 5px;
+  margin-left:5px;
+ 
 }

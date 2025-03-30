@@ -1,4 +1,5 @@
 import Home from './Home'
+import Buy from './Buy'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
 
@@ -15,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index path='/' element={<Home />} />
-          <Route path='/bay' element={<Home />} />
+          <Route path='/buy' element={<Buy />} />
         </Routes>
       </BrowserRouter>
     </div>
