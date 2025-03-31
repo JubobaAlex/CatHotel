@@ -1,0 +1,21 @@
+.window {
+    background-color: chartreuse;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    
+  }
+  .window a {
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+ 
+  
+ 

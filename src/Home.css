@@ -4,19 +4,7 @@
     font-family: Arial
   }
   
-  .window {
-    background-color: chartreuse;
-    min-height: 50px;
-  }
-  
-  .window a {
-    font-size: 22px;
-    margin-left: 15px;
-    margin-top: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-  }
+ 
   
   .img_div {
     position: relative; /*  Важно для позиционирования потомков */
@@ -70,5 +58,4 @@
   object-fit:cover;
   margin-right: 5px;
   margin-left:5px;
- 
 }
