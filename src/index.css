@@ -22,4 +22,7 @@
     .slick-dots li.slick-active button:before {
       color: black; /* Цвет активной точки */
     }
+    .about {
+      font-size: 21px;
     
+    }
