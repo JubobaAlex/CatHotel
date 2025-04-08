@@ -7,32 +7,32 @@
  
   
   .img_div {
-    position: relative; /*  Важно для позиционирования потомков */
-    height: 374px; /*  Фиксированная высота, чтобы контент не прыгал */
-    overflow: hidden; /*  Обрезаем изображение, если оно больше контейнера */
+    position: relative;
+    height: 374px;
+    overflow: hidden; 
   }
   
   .img_div img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /*  Важно для правильного масштабирования */
-    display: block; /*  Убираем лишний отступ у картинок */
+    object-fit: cover;
+    display: block; 
   }
   
   .text_img,
   .buy {
-    position: absolute; /*  Абсолютное позиционирование внутри .img_div */
+    position: absolute; 
     z-index: 2;
     color: white;
     margin-left: 10px;
   }
   
   .text_img {
-    top: 20px; /*  Позиционируем текст сверху */
+    top: 20px; 
   }
   
   .buy {
-    bottom: 20px; /*  Позиционируем кнопку снизу */
+    bottom: 20px; 
     border: 0.3px solid chartreuse;
     background-color: chartreuse;
     border-radius: 5px;
